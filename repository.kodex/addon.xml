@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<addon id="repository.kodex" version="1.1.2" name="Kodex Repository" provider-name="nat80">
+<addon id="repository.kodex" version="1.1.3" name="Kodex Repository" provider-name="nat80">
     <extension point="xbmc.addon.repository" name="Kodex Repository">
         <dir>
             <info compressed="false">https://nat80.github.io/repository.kodex/addons.xml</info>

@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <addons>
-    <addon id="repository.kodex" version="1.1.2" name="Kodex Repository" provider-name="nat80">
+    <addon id="repository.kodex" version="1.1.3" name="Kodex Repository" provider-name="nat80">
         <extension point="xbmc.addon.repository" name="Kodex Repository">
             <dir>
                 <info compressed="false">https://nat80.github.io/repository.kodex/addons.xml</info>
@@ -18,7 +18,7 @@
             </assets>
         </extension>
     </addon>
-    <addon id="plugin.video.kodex" version="1.1.2" name="Kodex" provider-name="nat80">
+    <addon id="plugin.video.kodex" version="1.1.3" name="Kodex" provider-name="nat80">
         <requires>
             <import addon="xbmc.python" version="3.0.1"/>
             <import addon="script.module.requests" version="2.31.0"/>
@@ -33,8 +33,8 @@
             <description lang="en_GB">Addon powered by Kodex API designed to work with TMDB Helper as the player</description>
             <platform>all</platform>
             <assets>
-                <icon>resources/media/kodex_logo.png</icon>
-                <fanart>resources/media/kodex_logo.png</fanart>
+                <icon>kodex_logo.png</icon>
+                <fanart>kodex_logo.png</fanart>
             </assets>
         </extension>
     </addon>
