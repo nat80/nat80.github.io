@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <addons>
-    <addon id="repository.kodex" version="1.1.1" name="Kodex Repository" provider-name="nat80">
+    <addon id="repository.kodex" version="1.1.2" name="Kodex Repository" provider-name="nat80">
         <extension point="xbmc.addon.repository" name="Kodex Repository">
             <dir>
                 <info compressed="false">https://nat80.github.io/repository.kodex/addons.xml</info>
@@ -18,7 +18,7 @@
             </assets>
         </extension>
     </addon>
-    <addon id="plugin.video.kodex" version="1.1.1" name="Kodex" provider-name="nat80">
+    <addon id="plugin.video.kodex" version="1.1.2" name="Kodex" provider-name="nat80">
         <requires>
             <import addon="xbmc.python" version="3.0.1"/>
             <import addon="script.module.requests" version="2.31.0"/>
