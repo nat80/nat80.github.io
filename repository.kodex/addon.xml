@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon id="repository.kodex" version="1.1.0" name="Kodex Repository" provider-name="nat80">
+    <extension point="xbmc.addon.repository" name="Kodex Repository">
+        <dir>
+            <info compressed="false">https://nat80.github.io/repository.kodex/addons.xml</info>
+            <checksum>https://nat80.github.io/repository.kodex/addons.xml.md5</checksum>
+            <datadir zip="true">https://nat80.github.io/repository.kodex/</datadir>
+        </dir>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary>Kodex Repository</summary>
+        <description>Repository for Kodex Kodi addon</description>
+        <platform>all</platform>
+        <assets>
+            <icon>kodex_logo.png</icon>
+            <fanart>kodex_logo.png</fanart>
+        </assets>
+    </extension>
+</addon>
