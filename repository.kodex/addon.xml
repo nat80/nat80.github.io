@@ -12,8 +12,8 @@
         <description>Repository for Kodex Kodi addon</description>
         <platform>all</platform>
         <assets>
-            <icon>kodex_logo.png</icon>
-            <fanart>kodex_logo.png</fanart>
+            <icon>icon.png</icon>
+            <fanart>icon.png</fanart>
         </assets>
     </extension>
 </addon>
