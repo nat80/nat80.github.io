@@ -1,10 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addon id="repository.kodex" version="1.1.3" name="Kodex Repository" provider-name="nat80">
     <extension point="xbmc.addon.repository" name="Kodex Repository">
+        <!--Kodex-->
         <dir>
             <info compressed="false">https://nat80.github.io/addons.xml</info>
             <checksum>https://nat80.github.io/addons.xml.md5</checksum>
             <datadir zip="true">https://nat80.github.io/</datadir>
+        </dir>
+        <!--LynxStrike Studios Coloured-->
+        <dir>
+            <info compressed="false">https://raw.githubusercontent.com/lynxstrike/lynxstrike.repo/master/lynxstrike_addons/zips/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/lynxstrike/lynxstrike.repo/master/lynxstrike_addons/zips/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/lynxstrike/lynxstrike.repo/master/lynxstrike_addons/zips/</datadir>
         </dir>
     </extension>
     <extension point="xbmc.addon.metadata">
