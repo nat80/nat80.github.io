@@ -18,9 +18,9 @@
                 <datadir zip="true">https://raw.githubusercontent.com/lynxstrike/lynxstrike.repo/master/lynxstrike_addons/zips/</datadir>
             </dir>
             <dir>
-                <info compressed="false">https://raw.githubusercontent.com/nat80/service.upnext/refs/heads/master/dist/addons.xml</info>
-                <checksum>https://raw.githubusercontent.com/nat80/service.upnext/refs/heads/master/dist/addons.xml.md5</checksum>
-                <datadir zip="true">https://raw.githubusercontent.com/nat80/service.upnext/refs/heads/master/dist/</datadir>
+                <info compressed="false">https://raw.githubusercontent.com/nat80/service.upnext/master/dist/addons.xml</info>
+                <checksum>https://raw.githubusercontent.com/nat80/service.upnext/master/dist/addons.xml.md5</checksum>
+                <datadir zip="true">https://raw.githubusercontent.com/nat80/service.upnext/master/dist/</datadir>
             </dir>
             <dir>
                 <info compressed="false">https://slyguy.uk/.repo/repository.slyguy/addons.xml</info>
@@ -43,7 +43,7 @@
             </assets>
         </extension>
     </addon>
-    <addon id="plugin.video.kodex" version="1.1.31" name="Kodex" provider-name="nat80">
+    <addon id="plugin.video.kodex" version="1.1.32" name="Kodex" provider-name="nat80">
         <requires>
             <import addon="xbmc.python" version="3.0.1"/>
             <import addon="script.module.requests" version="2.31.0"/>
