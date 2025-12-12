@@ -38,16 +38,10 @@
             </assets>
         </extension>
     </addon>
-    <addon id="plugin.video.kodex" version="1.1.41" name="Kodex" provider-name="nat80">
+    <addon id="plugin.video.kodex" version="1.1.42" name="Kodex" provider-name="nat80">
         <requires>
             <import addon="xbmc.python" version="3.0.1"/>
             <import addon="script.module.requests" version="2.31.0"/>
-            <import addon="skin.arctic.fuse.2" version="2.12.6"/>
-            <import addon="resource.images.studios.coloured" version="1.0.0011"/>
-            <import addon="plugin.program.autocompletion" version="2.1.2"/>
-            <import addon="plugin.video.youtube" version="99.2.26"/>
-            <import addon="slyguy.trailers" version="0.0.36"/>
-            <import addon="weather.openmeteo" version="1.0.14"/>
         </requires>
         <extension point="xbmc.python.pluginsource" library="main.py">
             <provides>video</provides>
