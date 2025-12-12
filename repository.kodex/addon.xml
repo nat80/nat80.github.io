@@ -33,9 +33,9 @@
         </dir>
         <!-- UpNext addon -->
         <dir>
-            <info compressed="false">https://raw.githubusercontent.com/nat80/service.upnext/master/addons.xml</info>
-            <checksum>https://raw.githubusercontent.com/nat80/service.upnext/master/addons.xml.md5</checksum>
-            <datadir zip="true">https://raw.githubusercontent.com/nat80/service.upnext/master/</datadir>
+            <info compressed="false">https://raw.githubusercontent.com/nat80/service.upnext/master/repo/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/nat80/service.upnext/master/repo/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/nat80/service.upnext/master/repo/</datadir>
         </dir>
     </extension>
     <extension point="xbmc.addon.metadata">
