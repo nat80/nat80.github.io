@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<addon id="repository.kodex" version="1.1.12" name="Kodex Repository" provider-name="nat80">
+<addon id="repository.kodex" version="1.1.13" name="Kodex Repository" provider-name="nat80">
     <extension point="xbmc.addon.repository" name="Kodex Repository">
         <!--Kodex-->
         <dir>
@@ -18,12 +18,6 @@
             <info compressed="false">https://raw.githubusercontent.com/lynxstrike/lynxstrike.repo/master/lynxstrike_addons/zips/addons.xml</info>
             <checksum>https://raw.githubusercontent.com/lynxstrike/lynxstrike.repo/master/lynxstrike_addons/zips/addons.xml.md5</checksum>
             <datadir zip="true">https://raw.githubusercontent.com/lynxstrike/lynxstrike.repo/master/lynxstrike_addons/zips/</datadir>
-        </dir>
-        <!--Upnext Repo-->
-        <dir>
-            <info compressed="false">https://raw.githubusercontent.com/nat80/service.upnext/refs/heads/master/addons.xml</info>
-            <checksum>https://raw.githubusercontent.com/nat80/service.upnext/refs/heads/master/addons.xml.md5</checksum>
-            <datadir zip="true">https://raw.githubusercontent.com/nat80/service.upnext/refs/heads/master/</datadir>
         </dir>
         <!-- Slyguy Repo -->
         <dir>
