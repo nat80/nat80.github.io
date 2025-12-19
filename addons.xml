@@ -43,9 +43,10 @@
             </assets>
         </extension>
     </addon>
-    <addon id="plugin.video.kodex" version="1.2.2" name="Kodex" provider-name="nat80">
+    <addon id="plugin.video.kodex" version="1.2.3" name="Kodex" provider-name="nat80">
         <requires>
             <import addon="xbmc.python" version="3.0.1"/>
+            <import addon="repository.kodex" version="1.1.14"/>
             <import addon="script.module.requests" version="2.31.0"/>
             <import addon="plugin.video.themoviedb.helper" version="6.12.5"/>
             <import addon="skin.arctic.fuse.2" version="2.12.12"/>
